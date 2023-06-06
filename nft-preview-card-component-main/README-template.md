@@ -31,8 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Github Pages](https://ladylucyfurr.github.io/nft-preview-card-component-main/index.html)
 
 ## My process
 
@@ -68,6 +67,7 @@ This is the first time I've used media queries to optimize the site for differen
 
 I would like to learn how to show another image on top of an image on hover. I couldn't figure out how to cover the image completely with the cyan color.
 I'd also like to learn how to get the ring around the avatar picture. Is it a circle around the image or an image on top of a white circle?
+Still need to learn how to adjust font weight with Google Fonts.
 
 ### Useful resources
 
