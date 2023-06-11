@@ -37,8 +37,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Github Pages Intro Component With Signup Form](https://ladylucyfurr.github.io/intro-component-with-signup-form-master/index.html)
 
 ## My process
 
