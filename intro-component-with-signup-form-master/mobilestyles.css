@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --red: hsl(0, 100%, 74%);
+    --green: hsl(154, 59%, 51%);
+    --blue: hsl(248, 32%, 49%);
+    --dark-blue: hsl(249, 10%, 26%);
+    --grayish-blue: hsl(246, 25%, 77%);
+}
+
+body {
+    background: var(--red) url(images/bg-intro-desktop.png);
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+    font-size: 16px;
+}
+
+header {
+    background-color: var(--blue);
+    border-radius: 10px;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    padding: 10px 20%;
+    -webkit-box-shadow: 0px 8px 2px 0px rgba(45,43,64,0.30);
+    -moz-box-shadow: 0px 8px 2px 0px rgba(45,43,64,0.30);
+    box-shadow: 0px 8px 2px 0px rgba(45,43,64,0.30);
+}
+
+fieldset {
+    border: 0;
+}
+
+form {
+    background-color: white;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    -webkit-box-shadow: 0px 8px 2px 0px rgba(45,43,64,0.30);
+    -moz-box-shadow: 0px 8px 2px 0px rgba(45,43,64,0.30);
+    box-shadow: 0px 8px 2px 0px rgba(45,43,64,0.30);
+}
+
+h1 {
+    margin-top: 2rem;
+}
+
+input {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    border: 1px solid var(--grayish-blue);
+    font-weight: 800;
+}
+
+input#submit {
+    background-color: var(--green);
+    text-transform: uppercase;
+    font-weight: 800;
+    color: white;
+    letter-spacing: 1px;
+    -webkit-box-shadow: 0px 4px 2px 0px #2a976881;
+    -moz-box-shadow: 0px 2px 2px 0px #2a976881;
+    box-shadow: 0px 2px 2px 0px #2a976881;
+    cursor: pointer;
+}
+
+input:invalid {
+    border: 1px solid var(--red);
+}
+
+p#terms {
+    color: var(--grayish-blue);
+    font-size: 11px;
+}
+
+.error-message {
+    color: var(--red);
+}
+
+#link {
+    text-decoration: none;
+    color: var(--red);
+}
+
+#submit:hover {
+    background-color: #82cfae;
+}
+
+@media screen and (min-width: 600px) {
+    main {
+        display: flex;
+    }
+
+    aside {
+        align-self: center;
+        padding-right: 20px;
+    }
+
+    header {
+        padding: 10px 10%;
+    }
+
+    h1 {
+        font-size: 2rem;
+        padding-bottom: 20px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    main {
+        display: flex;
+    }
+
+    section {
+        width: 50vw;
+    }
+
+    aside {
+        width: 50vw;
+    }
+}
+
+@media screen and (min-width: 895px) {
+    aside {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    aside {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    p.white {
+        text-align: left;
+    }
+}
+
+@media screen and (min-width: 1220px) {
+   h1 {
+    text-align: left;
+   } 
+
+   section {
+    margin: 5%;
+   }
+
+   header {
+    margin-top: 1rem;
+   }
+}
