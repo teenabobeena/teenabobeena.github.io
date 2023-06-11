@@ -33,6 +33,8 @@ Users should be able to:
 
 ![Invalid Form](sign-up-form-invalid.png)
 
+![Invalid Form](mobile-form.png)
+
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
