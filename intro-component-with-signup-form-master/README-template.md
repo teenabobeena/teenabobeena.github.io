@@ -29,9 +29,9 @@ Users should be able to:
 
 ### Screenshot
 
-![](Screenshot 2023-06-11 at 14-30-26 Frontend Mentor Intro component with sign up form.png)
+![](sign-up-form.png)
 
-![Invalid Form](Screenshot 2023-06-11 at 14-31-08 Frontend Mentor Intro component with sign up form.png)
+![Invalid Form](sign-up-form-invalid.png)
 
 ### Links
 
