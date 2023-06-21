@@ -25,11 +25,11 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop](/stats-preview-card-component-main/stats-preview-card-screenshots/stats-preview-card-desktop-ss.png)
+![Desktop](/stats-preview-card-component-main/stats-preview-card-desktop-ss.png)
 
-![Mobile 1](/stats-preview-card-component-main/stats-preview-card-screenshots/stats-preview-card-mobile-ss1.png)
+![Mobile 1](/stats-preview-card-component-main/stats-preview-card-mobile-ss1.png)
 
-![Mobile 2](/stats-preview-card-component-main/stats-preview-card-screenshots/stats-preview-card-mobile-ss2.png)
+![Mobile 2](/stats-preview-card-component-main/stats-preview-card-mobile-ss2.png)
 
 ### Links
 
