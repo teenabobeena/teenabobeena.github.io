@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
+
+:root {
+    --very-dark-magenta: hsl(300, 43%, 22%);
+    --soft-pink: hsl(333, 80%, 67%);
+    --dark-grayish-magenta: hsl(303, 10%, 53%);
+    --light-grayish-magenta: hsl(300, 24%, 96%);
+    --body-font: 15px;
+    --body-font-family: 'League Spartan', sans-serif;
+    --font-regular: 400;
+    --font-medium: 500;
+    --font-bold: 700;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--body-font-family);
+    font-size: var(--body-font);
+    color: white;
+    margin: 1.5rem;
+}
+
+h1 {
+    margin-top: 4rem;
+    font-size: 2.5rem;
+    letter-spacing: -1px;
+    line-height: 0.8;
+    margin-bottom: 2rem;
+}
+
+h2 {
+    font-size: 1rem;
+    letter-spacing: 0.6px;
+    margin-top: 1rem;
+}
+
+header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--light-grayish-magenta);
+    width: 375px;
+    height: 350px;
+    z-index: -1;
+    clip-path: circle(65.8% at 37% 1%);
+}
+
+header p {
+    font-weight: var(--font-medium);
+    margin-bottom: 2rem;
+    font-size: 1.15rem;
+    line-height: 1.25;
+}
+
+figure img {
+    width: 3rem;
+    height: 3rem;
+}
+
+.rated-stars img {
+    margin-right: 0.25rem;
+}
+
+.dk-purple {
+    color: var(--very-dark-magenta);
+}
+
+.center {
+    text-align: center;
+}
+
+.light-text {
+    color: var(--dark-grayish-magenta);
+}
+
+.light-bg {
+    background-color: var(--light-grayish-magenta);
+}
+
+.dk-bg {
+    background-color: var(--very-dark-magenta);
+}
+
+.attribution {
+    color: black;
+}
+
+.pink {
+    color: var(--soft-pink);
+    font-weight: normal;
+}
+
+.rated-wrapper {
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    padding: 1rem 3rem;
+}
+
+.review {
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    padding: 2rem;
+}
+
+.rating-name {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.rating-name figure {
+    margin-right: 1rem;
+}
+
+figure img {
+    border-radius: 50%;
+}
+
+.rating-name figcaption {
+    font-weight: var(--font-bold);
+    font-size: 1.05rem;
+}
+
+.review p {
+    line-height: 1.4;
+    font-weight: var(--font-medium);
+    font-size: 1.05rem;
+}
+
+main {
+    margin-bottom: 5rem;
+}
+
+@media screen and (min-width: 768px) {
+    header::before {
+        display: none;
+    }
+
+    .rated-wrapper {
+        width: 45%;
+        position: absolute;
+        right: 1.5rem;
+        top: 2rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+
+    #rating-two {
+        position: absolute;
+        right: 1.5rem;
+        top: 7rem;
+    }
+
+    #rating-three {
+        position: absolute;
+        right: 1.5rem;
+        top: 12rem;
+    }
+
+    header {
+        width: 50%;
+    }
+
+    #lg-flex {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .review {
+        width: 30vw;
+    }
+}
+
+@media screen and (min-width: 812px) {
+    #right {
+        margin-bottom: 5rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    body {
+        padding: 0 2rem;
+    }
+
+    header {
+        width: 32vw;
+    }
+
+    .left {
+        text-align: left;
+    }
+
+    .review {
+        width: 28vw;
+    }
+
+    #top-review {
+        margin-top: 1rem;
+        position: absolute;
+        right: 115px;
+    }
+
+    #rating-two {
+        margin-top: 1rem;
+        position: absolute;
+        right: 85px;
+    }
+
+    #rating-three {
+        margin-top: 1rem;
+        position: absolute;
+        right: 55px;
+    }
+
+    .rated-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+}
