@@ -14,7 +14,6 @@ This is a solution to the [Social proof section challenge on Frontend Mentor](ht
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -26,14 +25,15 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
+![Desktop](./screenshots/Screenshot%20from%202023-12-25%2013-12-43.png)
+![Mobile (1 of 3)](./screenshots/sp-mobile1.png)
+![Mobile (2 of 3)](./screenshots/sp-mobile2.png)
+![Mobile (3 of 3)](./screenshots/sp-mobile3.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/semantic-html-mobilefirst-social-proof-section--JiKUfedfT)
+- Live Site URL: [GitHub Pages](https://teenabobeena.github.io/social-proof-section-master/index.html)
 
 ## My process
 
@@ -45,13 +45,8 @@ Add a screenshot of your solution. The easiest way to do this is to use Firefox 
 
 ### What I learned
 
-clip-path
+I used the ::before pseudoselector for the first time to make the half-circle at the top of the mobile site. This was also my first time using clip-path to make a shape.
 
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
 ```css
 header::before {
     content: '';
@@ -65,25 +60,39 @@ header::before {
     clip-path: circle(65.8% at 37% 1%);
 }
 ```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+For this project I focused on learning semantic HTML tags for improved accessibility and SEO and where is the best place to use them.
+
+```html
+<figure>
+  <img src="./images/image-colton.jpg" alt="">
+</figure>
+<figcaption>
+  Colton Smith<br />
+  <span class="pink">Verified Buyer</span>
+</figcaption>
+
+</section>
+</main>
+<footer>
+  <div class="attribution center">Challenge by <a 
+    href="https://www.frontendmentor.io?ref=challenge" 
+    target="_blank">Frontend Mentor
+  </a>. Coded by <a href="#">Christina</a>.
+  </div>
+</footer>
+```
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+I need to work on positioning with CSS. Absolute vs relative, best practices. Also how to group elements together to make it easier to go from mobile to desktop.
 
 ### Useful resources
 
-- [Clippy - Clip Path Generator](https://bennettfeely.com/clippy/) - This tool let me draw the circle and move the radius and edge to position it the way I wanted. This came in very handy because I was too confused by the clip-path property to use it on my own this time.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Clippy - Clip Path Generator](https://bennettfeely.com/clippy/) - This tool let me draw the circle and move the radius and edge to position it the way I wanted. This came in very handy because the clip-path property was a bit confusing.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
+- Website - [GitHub Pages](https://teenabobeena.github.io)
 - Frontend Mentor - [@LadyLucyfurr](https://www.frontendmentor.io/profile/ladylucyfurr)
 - Twitter - [@chr1st1nac0des](https://www.twitter.com/chr1st1nac0des)
